@@ -1,0 +1,96 @@
+html{
+    margin:0px;
+}
+
+body {
+    background-color: rgba(123, 254, 226, 0.475);
+    font-family: Helvetica, Arial;
+    margin:0px;
+    font-size: 1.5vw;
+}
+
+#logo{
+    margin:0px;
+    padding:10px;
+    font-family:"Baskervville SC";
+}
+
+body > header{
+    background-color: rgb(240, 127, 255);
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body>header>nav>ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-ul {
+    display: flex;
+
+}
+
+#nav-ul> li{
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid white ;
+    border-radius: 10%;
+}
+
+.navbutton{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+body>main article{
+    width: 70%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content>div{
+    width:85%;
+}
+
+form{
+    text-align  : center;
+}
+
+h2{
+    text-align  : center;
+}
+
+body> footer {
+    background-color: rgb(240, 127, 255);
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    padding: 10px;
+}
+
+#footer-ul> div> li {
+    margin-left: 18px;
+}
+
+#footer-ul>div>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    margin:0px;
+}
+
+img{
+    border-radius: 100%;
+}
